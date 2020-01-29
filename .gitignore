@@ -1,0 +1,6 @@
+# Simple-Web-Server
+Simple-Web-Server/build
+
+# Serial program
+serial/main.o
+serial/serialSend
