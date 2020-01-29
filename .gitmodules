@@ -1,0 +1,3 @@
+[submodule "Simple_Web_Server"]
+	path = Simple_Web_Server
+	url = https://gitlab.com/pchizek/Simple-Web-Server.git
