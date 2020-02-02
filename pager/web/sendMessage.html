@@ -1,0 +1,32 @@
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            h1 {text-align: center;}
+            messageForm {text-align: center;}
+        </style>
+
+    </head>
+    <body>
+
+        <br>
+        <h1>
+            Send Pat a message!
+        </h1>
+
+        <messageForm>
+                
+            <form action="/messageSent.html" method="POST">
+                Name:<br>
+                <input type="text" name="senderName" maxlength="15"><br><br>
+                Message:<br>
+                <textarea name="message" rows="10" cols="30" maxlength="254"></textarea><br>
+                <br>
+                <input type="submit" value="Send">
+        
+            </form>
+        </messageForm>
+        
+    </body>
+</html>
