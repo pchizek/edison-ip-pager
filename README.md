@@ -10,13 +10,9 @@ the stored messages and one to delete the message.
 # Dependencies
 [Simple-Web-Server](https://gitlab.com/eidheim/Simple-Web-Server) by Ole Christian Eidheim
 
-# Known issues
-* Apostrophes and double quotes are interpreted as multibyte characters
-
 # Future improvements
 * Landing page for sending a message
 * Status pages and rejection notices for empty fields
-* Parsing and removal/replacement of unicode characters
 * Directly driving the lcd1602a with the Intel Edison's GPIO
 * Menu support and a counter for new and stored messages
 * https support
