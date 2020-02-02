@@ -1,6 +1,9 @@
-# Simple-Web-Server
+# Ignore SWS build directory
 Simple-Web-Server/build
 
+# Ignore build
+build
+
 # Serial program
-serial/main.o
-serial/serialSend
+serial/shell/main.o
+serial/shell/serialSend
