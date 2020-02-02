@@ -33,8 +33,8 @@ int main(int argc, char* argv[]){ // sender[],int senderLen, char content[], int
     string sender_s = argv[1];
     string content_s = argv[2];
 
-    // Get sender
-    int senderLen = sender_s.length()+1;
+    // Get sende
+    int senderLen = stringFixup(sender_s);
     char sender[senderLen];
     strcpy(sender,sender_s.c_str());
 
@@ -110,5 +110,9 @@ int main(int argc, char* argv[]){ // sender[],int senderLen, char content[], int
     close(serialPort);
 
     return rc;
+
+}
+
+int stringFixup(){
 
 }
